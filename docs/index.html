@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="React Director Admin Template">
   <meta name="author" content="Erwan DATIN (MacKentoch)">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.4.5/collection/icon/icon.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -94,46 +95,47 @@
 </head>
 
 <body class="skin-black" y>
-  <div class="loader">
-    <p class="loading-message">
-      <i>
-        Loading...
-      </i>
-    </p>
-    <div class="spinner">
-      <div class="dot1"></div>
-      <div class="dot2"></div>
-    </div>
+<div class="loader">
+  <p class="loading-message">
+    <i>
+      Loading...
+    </i>
+  </p>
+  <div class="spinner">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
   </div>
-  <section id="root"></section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-    crossorigin="anonymous"></script>
-  <script>
-    // loading fadeOut pure vanilla JS (I9+)
-    ;
-    (function () {
-      document.addEventListener("DOMContentLoaded", function (event) {
-        var el = document.querySelector('.loader');
-        fadeOut(el);
-      });
+</div>
+<section id="root"></section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+<script>
+  // loading fadeOut pure vanilla JS (I9+)
+  ;
+  (function() {
+    document.addEventListener('DOMContentLoaded', function(event) {
+      var el = document.querySelector('.loader');
+      fadeOut(el);
+    });
 
-      function fadeOut(el) {
-        el.style.opacity = 1;
-        (function fade() {
-          if ((el.style.opacity -= .1) < 0.15) {
-            el.style.display = "none";
-          } else {
-            requestAnimationFrame(fade);
-          }
-        })();
-      }
-    })()
+    function fadeOut(el) {
+      el.style.opacity = 1;
+      (function fade() {
+        if ((el.style.opacity -= .1) < 0.15) {
+          el.style.display = 'none';
+        } else {
+          requestAnimationFrame(fade);
+        }
+      })();
+    }
+  })();
 
-  </script>
-  <!--[if !IE]-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexibility/2.0.1/flexibility.js"></script>
-  <!--[endif]-->
-<script type="text/javascript" src="./assets/vendors.91f6c115afacd2f6a7fb.js"></script><script type="text/javascript" src="./assets/styles.91f6c115afacd2f6a7fb.js"></script><script type="text/javascript" src="./assets/app.91f6c115afacd2f6a7fb.js"></script></body>
+</script>
+<!--[if !IE]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexibility/2.0.1/flexibility.js"></script>
+<!--[endif]-->
+<script type="text/javascript" src="./assets/vendors.cc64a9d466d85af3b014.js"></script><script type="text/javascript" src="./assets/styles.cc64a9d466d85af3b014.js"></script><script type="text/javascript" src="./assets/app.cc64a9d466d85af3b014.js"></script></body>
 
 </html>
